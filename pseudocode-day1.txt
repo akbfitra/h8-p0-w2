@@ -1,0 +1,80 @@
+//////////////////////////////////////////////////////////////////////////
+
+ALGORITMA && PSEUDOCODE
+
+//////////////////////////////////////////////////////////////////////////
+
+/--------------------------------------------------------\
+TASK 1 {GAYA}
+--ALGORITMA
+1. masukkan nilai massa dalam satuan kilo dengan nilai 600
+2. masukkan nilai percepatan dalam satuan m/s2 dengan nilai 2
+3. hitung nilai resultan dengan rumus massa dikali dengan percepatan
+4. tampilkan nilai resultan
+
+--PSEUDOCODE
+STORE "massa" with values 600
+STORE "percepatan" with values 2
+SET "resultan" EQUAL TO "massa" TIMES "percepatan"
+DISPLAY "resultan"
+
+/----------------------------------------------------------\
+TASK 2 {TAHUN KABISAT}
+--ALGORITMA
+1. masukkan nilai tahun dengan angka berapapun
+2. jika nilai tahun habis dibagi 4 dan tidak habis dibagi 100 maka masuk step 4 
+3. jika nilai tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 maka masuk step 4 
+4. tampilkan tahun kabisat
+5. jika tidak memenuhi syarat diatas maka masuk step 6
+6. tampilkan bukan tahun kabisat
+
+--PSEUDOCODE
+STORE "tahun" with any values
+IF "tahun" MOD 4 EQUAL TO 0 && "tahun" MOD 100 EQUAL TO 1 THEN
+    DISPLAY "tahun kabisat"
+ELSE IF "tahun" MOD 4 EQUAL TO 0 && "tahun" MOD 100 EQUAL TO 0 && "tahun" MOD 0 THEN
+    DISPLAY "tahun kabisat"
+ELSE 
+    DISPLAY "bukan tahun kabisat"
+ENDIF
+
+/----------------------------------------------------------\
+TASK 3 {CUCI}
+--ALGORITMA
+1. masukkan baju kedalam mesin cuci secara satu persatu
+2. jika baju telah mencapai 20 maka masuk step 3
+3. nyalakan mesin cuci
+4. jika baju kurang dari 20 maka tambahkan baju satu persatu 
+
+--PSEUDOCODE
+STORE "baju" with 0
+IF "baju" EQUAL TO 20 THEN 
+    DISPLAY "mesin cuci menyala"
+ELSE
+    CALCULATE "baju" plus 1
+ENDIF
+
+/----------------------------------------------------------\
+TASK 4 {PERIKSA KUKU}
+--ALGORITMA
+1. Guru mulai memeriksa siswa satu persatu
+2. guru melihat dan memeriksa apakah siswa ada yang kuku panjang atau tidak
+3. Jika ada yang panjang maka siswa akan dihukum
+4. Jika tidak ada yang panjang maka siswa akan dipuji
+5. guru melanjutkan melihat dan memeriksa siswa yang lain
+
+--PSEUDOCODE
+STORE "siswa" with 1
+WHILE "siswa" LESS THAN EQUAL TO 40 THEN
+    DISPLAY "siswa"
+    STORE "kukuPanjang" with true or false
+    IF "kukuPanjang" EQUAL TO true THEN
+        DISPLAY "HUKUM"
+    ELSE 
+        DISPLAY "PUJI"
+    ENDIF   
+ADD "siswa" by 1
+ENDWHILE
+
+
+
