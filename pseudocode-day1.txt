@@ -30,9 +30,9 @@ TASK 2 {TAHUN KABISAT}
 
 --PSEUDOCODE
 STORE "tahun" with any values
-IF "tahun" MOD 4 EQUAL TO 0 && "tahun" MOD 100 EQUAL TO 1 THEN
+IF "tahun" MOD 4 EQUAL TO 0 AND "tahun" MOD 100 EQUAL TO 1 THEN
     DISPLAY "tahun kabisat"
-ELSE IF "tahun" MOD 4 EQUAL TO 0 && "tahun" MOD 100 EQUAL TO 0 && "tahun" MOD 0 THEN
+ELSE IF "tahun" MOD 4 EQUAL TO 0 AND "tahun" MOD 100 EQUAL TO 0 AND "tahun" MOD 0 THEN
     DISPLAY "tahun kabisat"
 ELSE 
     DISPLAY "bukan tahun kabisat"
@@ -57,10 +57,10 @@ ENDIF
 /----------------------------------------------------------\
 TASK 4 {PERIKSA KUKU}
 --ALGORITMA
-1. Guru mulai memeriksa siswa satu persatu
+1. guru mulai memeriksa siswa satu persatu
 2. guru melihat dan memeriksa apakah siswa ada yang kuku panjang atau tidak
-3. Jika ada yang panjang maka siswa akan dihukum
-4. Jika tidak ada yang panjang maka siswa akan dipuji
+3. jika ada yang panjang maka siswa akan dihukum
+4. jika tidak ada yang panjang maka siswa akan dipuji
 5. guru melanjutkan melihat dan memeriksa siswa yang lain
 
 --PSEUDOCODE
