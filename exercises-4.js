@@ -1,4 +1,4 @@
- var hari = 1;
+ var hari = 30;
  var bulan = 12;
  var tahun = 1908;
 
