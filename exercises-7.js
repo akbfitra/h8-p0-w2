@@ -19,7 +19,7 @@ for (var i = 0; i < rows2; i++) {
     console.log(bintang)
 }
 //-----------task 3 (piramid bintang)--------------
-console.log('---------------task 2 (piramid bintang)----------------')
+console.log('---------------task 3 (piramid bintang)----------------')
 var rows3 = 5;
 for (var i = 0; i < rows3; i++) {
     var bintang2 = ''
