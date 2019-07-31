@@ -22,11 +22,11 @@ DISPLAY "resultan"
 TASK 2 {TAHUN KABISAT}
 --ALGORITMA
 1. masukkan nilai tahun dengan angka berapapun
-2. jika nilai tahun habis dibagi 4 dan tidak habis dibagi 100 maka masuk step 4 
-3. jika nilai tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 maka masuk step 4 
-4. tampilkan tahun kabisat
-5. jika tidak memenuhi syarat diatas maka masuk step 6
-6. tampilkan bukan tahun kabisat
+2. jika nilai tahun habis dibagi 4 dan tidak habis dibagi 100 maka masuk step 5 
+3. jika nilai tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 maka masuk step 5 
+4. jika tidak memenuhi syarat diatas maka tampilkan bukan tahun kabisat
+5. tampilkan tahun kabisat
+
 
 --PSEUDOCODE
 STORE "tahun" with any values
@@ -48,11 +48,10 @@ TASK 3 {CUCI}
 
 --PSEUDOCODE
 STORE "baju" with 0
-IF "baju" EQUAL TO 20 THEN 
-    DISPLAY "mesin cuci menyala"
-ELSE
-    CALCULATE "baju" plus 1
-ENDIF
+WHILE "baju" LESS THAN EQUAL TO 20 THEN 
+    ADD "baju" by 1
+ENDWHILE
+DISPLAY "mesin cuci menyala"
 
 /----------------------------------------------------------\
 TASK 4 {PERIKSA KUKU}
