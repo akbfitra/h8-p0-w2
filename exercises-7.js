@@ -22,9 +22,9 @@ for (var i = 0; i < rows2; i++) {
 console.log('---------------task 2 (piramid bintang)----------------')
 var rows3 = 5;
 for (var i = 0; i < rows3; i++) {
-    var bintang = ''
+    var bintang2 = ''
     for (var j = 0; j <= i; j++) {
-        bintang += '*'
+        bintang2 += '*'
     }
-    console.log(bintang)
+    console.log(bintang2)
 }
