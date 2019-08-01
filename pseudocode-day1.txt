@@ -22,10 +22,12 @@ DISPLAY "resultan"
 TASK 2 {TAHUN KABISAT}
 --ALGORITMA
 1. masukkan nilai tahun dengan angka berapapun
-2. jika nilai tahun habis dibagi 4 dan tidak habis dibagi 100 maka masuk step 5 
-3. jika nilai tahun habis dibagi 4 dan habis dibagi 100 dan habis dibagi 400 maka masuk step 5 
-4. jika tidak memenuhi syarat diatas maka tampilkan bukan tahun kabisat
-5. tampilkan tahun kabisat
+2. jika nilai tahun dibagi 4 sama dengan 0 dan nilai tahun dibagi 100 sama dengan 1
+3. maka tampilkan tahun kabisat
+4. Atau nilai tahun dibagi 4 sama dengan 0 dan nilai tahun dibagi 100 sama dengan 0 dan nilai tahun dibagi 400 sama dengan 0 
+5. maka tampilkan tahun kabisat
+6. jika tidak memenuhi syarat diatas maka tampilkan bukan tahun kabisat
+
 
 
 --PSEUDOCODE
