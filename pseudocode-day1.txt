@@ -46,9 +46,9 @@ TASK 3 {CUCI}
 1. masukkan baju kedalam mesin cuci 
 2. hitung pakaian secara satu persatu
 3. jika baju kurang dari 20 
-4. maka tambahkan baju satu persatu 
-4. jika baju telah mencapai 20 
-5. maka nyalakan mesin cuci
+4. maka tambahkan pakaian
+5. jika baju telah mencapai 20 
+6. maka nyalakan mesin cuci
 
 
 --PSEUDOCODE
