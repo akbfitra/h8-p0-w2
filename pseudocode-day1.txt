@@ -22,7 +22,7 @@ DISPLAY "resultan"
 TASK 2 {TAHUN KABISAT}
 --ALGORITMA
 1. masukkan nilai tahun dengan angka berapapun
-2. jika nilai tahun dibagi 4 sama dengan 0 dan nilai tahun dibagi 100 sama dengan 1
+2. jika nilai tahun dibagi 4 sama dengan 0 dan nilai tahun dibagi 100 tidak sama dengan 0
 3. maka tampilkan tahun kabisat
 4. Atau nilai tahun dibagi 4 sama dengan 0 dan nilai tahun dibagi 100 sama dengan 0 dan nilai tahun dibagi 400 sama dengan 0 
 5. maka tampilkan tahun kabisat
@@ -32,7 +32,7 @@ TASK 2 {TAHUN KABISAT}
 
 --PSEUDOCODE
 STORE "tahun" with any values
-IF "tahun" MOD 4 EQUAL TO 0 AND "tahun" MOD 100 EQUAL TO 1 THEN
+IF "tahun" MOD 4 EQUAL TO 0 AND "tahun" MOD 100 NOT EQUAL TO 0 THEN
     DISPLAY "tahun kabisat"
 ELSE IF "tahun" MOD 4 EQUAL TO 0 AND "tahun" MOD 100 EQUAL TO 0 AND "tahun" MOD 0 THEN
     DISPLAY "tahun kabisat"
@@ -43,10 +43,13 @@ ENDIF
 /----------------------------------------------------------\
 TASK 3 {CUCI}
 --ALGORITMA
-1. masukkan baju kedalam mesin cuci secara satu persatu
-2. jika baju telah mencapai 20 maka masuk step 3
-3. nyalakan mesin cuci
-4. jika baju kurang dari 20 maka tambahkan baju satu persatu 
+1. masukkan baju kedalam mesin cuci 
+2. hitung pakaian secara satu persatu
+3. jika baju kurang dari 20 
+4. maka tambahkan baju satu persatu 
+4. jika baju telah mencapai 20 
+5. maka nyalakan mesin cuci
+
 
 --PSEUDOCODE
 STORE "baju" with 0
